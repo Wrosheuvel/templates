@@ -7,109 +7,98 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="c-style.css">
+            <link href="animate.css" rel="stylesheet">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Rosheuvel.nl</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Over mij</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">CV/Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<body class="bg-greylight animated fadeIn ">
+  <div class="d-flex flex-column">
+
+    <header>
 
 
-
-
-
-
-
-
-<main role="main" class="container">
-
-
-    <div class="myMenu d-flex flex-column flex-lg-row text-center">
-      <div class="container myMenuItem pre-scrollable mh-100 d-flex flex-column">
-        <h1 class="myRow pb-2">Page Title</h1>
-        <p>
-          A little Introduction: <br>  velit. Dolore in constias, ea doctrina ea excepteur, summis occaecat est quem
-            dolor hic duis iis senserit ita sint.Culpa nescius do praetermissum, aut sint
-            cohaerescant. Ne quorum pariatur comprehenderit in doctrina tractavissent ubi
-            occaecat iis in expetendis si commodo,Eram mentitum te duis sint, nescius magna magna in fore quo illum ad proident do
-            fabulas elit litteris cernantur.  <br>
-        </p>
-
-
-<form class="mynav flex-grow-1 pt-2 pb-2">
-  <div class="row">
-
-    <div class="col-12 col-lg-8">
-      <div class="form-group">
-
-        <label for="myInputEmail">Email adress</label>
-        <input type="email" class="form-control" id="myInputEmail" placeholder="Enter you're email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-
+      <nav class="navbar navbar-expand-lg navbar-dark bg-red ">
+      <a class="navbar-brand" href="#">Rosheuvel.nl</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="template_3col_homepage.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="template_aboutMe.html">Over mij</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="template_CV.html">CV/Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="template_Contact.html">contact</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
+        </header>
 
-    <div class="col-12 col-lg-4">
-      <div class="form-group">
-
-        <label for="myInputPhone">Phone number</label>
-        <input type="text" class="form-control" id="myInputPhone"data-format="+31 (d) dddd-dddd" placeholder="+31">
-
-      </div>
-      </div>
-
-    </div>
-    <div class="form-group">
-      <label for="myTextArea">Example textarea</label>
-      <textarea class="form-control" id="myTestArea" rows="3"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+    <main role="main" class="h-100">
 
 
-        <div class="container-fluid myRow  d-inline d-lg-none">
-          FOOTER ELEMENT
-        </div>
-      </div>
-    </div>
+                <div class="  d-flex flex-column flex-lg-row text-center ">
+                  <div class="   d-flex flex-column mt-4">
+                    <h1 class=" pb-2">Page Title</h1>
+                    <p>
+                      A little Introduction: <br>  velit. Dolore in constias, ea doctrina ea excepteur, summis occaecat est quem
+                        dolor hic duis iis senserit ita sint.Culpa nescius do praetermissum, aut sint
+                        cohaerescant. Ne quorum pariatur comprehenderit in doctrina tractavissent ubi
+                        occaecat iis in expetendis si commodo,Eram mentitum te duis sint, nescius magna magna in fore quo illum ad proident do
+                        fabulas elit litteris cernantur.  <br>
+                    </p>
 
 
+            <form class="container pt-2 pb-2 mt-3">
+              <div class="row">
+
+                <div class="col-12 col-lg-8">
+                  <div class="form-group">
+
+                    <label for="myInputEmail">Email adress</label>
+                    <input type="email" class="form-control" id="myInputEmail" placeholder="Enter you're email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+                  </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                  <div class="form-group">
+
+                    <label for="myInputPhone">Phone number</label>
+                    <input type="text" class="form-control" id="myInputPhone"data-format="+31 (d) dddd-dddd" placeholder="+31">
+
+                  </div>
+                  </div>
+
+                </div>
+                <div class="form-group">
+                  <label for="myTextArea">Example textarea</label>
+                  <textarea class="form-control" id="myTestArea" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
 
 
+                  </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+    </main>
 
-
-
-
-
-
-
-    <div class="container-fluid footer text-center d-none d-lg-block">
-      <p>Rosheuvel.nl</p>
-    </div>
-
+    <footer class="bg-blue t-white text-center fixed-bottom ">
+                  <p>Rosheuvel.nl</p>
+    </footer>
   </div>
-
-</main>
-
 
   <!-- SCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
