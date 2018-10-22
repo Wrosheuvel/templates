@@ -27,7 +27,8 @@
 .bg-gold{background-color: #B29F44}
 .t-white{color: white;}
 .t-gold{color: #B29F44;}
-
+.t-red{color: #BF3640;}
+.t-blue{color: #1C374C;}
 .myTitle{
   font-size: 2em;
   background-color: black;
@@ -36,4 +37,11 @@
 }
 .myTitle:hover{
   opacity: 0.8;
+}
+p {
+  color: white;
+}
+a {
+  text-decoration: none;
+
 }

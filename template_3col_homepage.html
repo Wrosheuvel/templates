@@ -1,62 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link href="style.css" rel="stylesheet">
-    <link href="c-style.css" rel="stylesheet">
-        <link href="animate.css" rel="stylesheet">
-
+  <link href="c-style.css" rel="stylesheet">
+  <link href="animate.css" rel="stylesheet">
 </head>
-
 <body class="animated fadeIn ">
-  <div class=" h-100">
   <div class="mycont  d-flex flex-column">
-
-
-    <nav class="navbar  navbar-light bg-red">
-      <a class="navbar-brand" href="#">
-        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        <span class="t-white">WESSEL ROSHEUVEL</span>
-      </a>
-    </nav>
-
-
-
-
-
+    <!--Navbar
+  Change .bg-red in CSS to change the background color of the navbar
+  navbar-light decides the color of the text
+-->
+    <header>
+      <nav class="navbar  navbar-light bg-red">
+        <a class="navbar-brand" href="#">
+            <!--This is where you can change the Title in Navbar-->
+            <span class="t-white">WESSEL ROSHEUVEL</span>
+          </a>
+      </nav>
+    </header>
+    <!--Main Content
+  Change the titles inside .myTitle
+  Change .t-gold to change the color of the text
+  Change the href to your own link
+-->
     <div class=" d-flex  flex-column flex-lg-row text-center h-100 ">
+      <div class="myMenuItem1  col d-flex  align-items-center">
+        <a href="template_aboutMe.html" class="col"> <div class="myTitle t-gold rounded">OVER MIJ</div></a>
+      </div>
 
-        <div class="myMenuItem1  col d-flex  align-items-center">
-          <a href="template_aboutMe.html" class="col"> <div class="myTitle t-gold rounded">OVER MIJ</div></a>
-        </div>
-        <div class=" myMenuItem2 col d-flex  align-items-center">
-          <a href="template_CV.html" class="col"> <div class="myTitle t-gold rounded">CV/PORTFOLIO</div></a>
-        </div>
-        <div class=" myMenuItem3  col d-flex align-items-center">
-          <a href="template_Contact.html" class="col"> <div class="myTitle t-gold rounded">CONTACT</div></a>
-        </div>
+      <div class=" myMenuItem2 col d-flex  align-items-center">
+        <a href="template_CV.html" class="col"> <div class="myTitle t-gold rounded">CV/PORTFOLIO</div></a>
+      </div>
+
+      <div class=" myMenuItem3  col d-flex align-items-center">
+        <a href="template_Contact.html" class="col"> <div class="myTitle t-gold rounded">CONTACT</div></a>
+      </div>
 
     </div>
-
-
-
-
-
-
+    <!--Footer
+  Change .bg-blue in CSS to change the background color of the footer
+  Change .t-white to change the color of the text
+-->
     <div class="bg-blue t-white footer text-center d-none d-lg-block">
       <p>Rosheuvel.nl</p>
     </div>
-
   </div>
-
-  </div>
-
-
-
   <!-- SCRIPTS -->
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -65,5 +58,4 @@
   <!-- Bootstrap core JavaScript -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
