@@ -26,7 +26,8 @@
 .bg-greylight{background-color:#cbcdcb; }
 .bg-gold{background-color: #B29F44}
 .t-white{color: white;}
-.t-gold{color: #B29F44;}
+.t-gold{color: #B29F44;
+}
 
 .myTitle{
   font-size: 2em;
@@ -36,4 +37,15 @@
 }
 .myTitle:hover{
   opacity: 0.8;
+}
+.myani {
+  animation-duration: 1.5s;
+}
+.myani2 {
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+}
+.myani3 {
+  animation-duration: 1.5s;
+  animation-delay: 1s;
 }
