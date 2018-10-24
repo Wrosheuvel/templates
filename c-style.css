@@ -1,47 +1,49 @@
-.myMenuItem1{
-  background-image:url("img/boot.jpg");
-    background-size:  cover;
-    opacity: 0.8;
-    transition: 0.3s;
-}
-.myMenuItem2{
-  background-image:url("img/kust.jpg");
-  background-size:  cover;
-  opacity: 0.8;
-  transition: 0.3s;
-}
-.myMenuItem3{
-  background-image:url("img/wallpaper.jpg");
-    background-size:  cover;
-    opacity: 0.8;
-    transition: 0.3s;
-}
+:root {
+  --menuOpacity: 0.8;
+  --toMenuOpacity: 1.0;
 
-.myMenuItem1:hover {opacity: 1;}
-.myMenuItem2:hover {opacity: 1;}
-.myMenuItem3:hover {opacity: 1;}
+}
+.mycont {
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+.myMenuItem1{  background-image:url("img/boot.jpg");}
+.myMenuItem2{  background-image:url("img/kust.jpg");}
+.myMenuItem3{  background-image:url("img/wallpaper.jpg");}
+
+.myMenuItem1, .myMenuItem2, .myMenuItem3{
+
+    background-size:  cover;
+    opacity: var(--menuOpacity);
+    transition: 0.3s;
+}
+.myMenuItem1:hover, .myMenuItem2:hover, .myMenuItem3:hover {opacity: var(--toMenuOpacity);}
+
 .bg-red{background-color: #BF3640;}
 .bg-blue{background-color: #1C374C;}
 .bg-grey{background-color: #4A4E4F;}
 .bg-greylight{background-color:#cbcdcb; }
 .bg-gold{background-color: #B29F44}
+
 .t-white{color: white;}
 .t-gold{color: #B29F44;}
 .t-red{color: #BF3640;}
 .t-blue{color: #1C374C;}
-.myTitle{
+
+.menuTitle{
   font-size: 2em;
   background-color: black;
   opacity: 0.6;
   transition: 0.2s;
 }
-.myTitle:hover{
-  opacity: 0.8;
-}
+
+
 p {
   color: white;
 }
 a {
   text-decoration: none;
-
 }
