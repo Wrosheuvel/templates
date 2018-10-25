@@ -10,10 +10,10 @@
   width: 100%;
   height: 100%;
 }
+
 .myMenuItem1{  background-image:url("img/boot.jpg");}
 .myMenuItem2{  background-image:url("img/kust.jpg");}
 .myMenuItem3{  background-image:url("img/wallpaper.jpg");}
-
 .myMenuItem1, .myMenuItem2, .myMenuItem3{
 
     background-size:  cover;
@@ -39,8 +39,9 @@
   opacity: 0.6;
   transition: 0.2s;
 }
-
-
+.delay-025s{animation-delay: 0.25s;}
+.delay-05s{animation-delay: 0.5s;}
+.a-d3{animation-duration: 5s;}
 p {
   color: white;
 }
